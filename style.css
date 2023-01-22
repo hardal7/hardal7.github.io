@@ -1,0 +1,137 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+
+
+  
+}
+
+
+nav {
+  
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 1320px; /* set the width */
+  height: 50px; /* set the height */
+}
+
+nav a {
+  color: #692ae8;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4em;
+  transition: color 0.5s; /* 0.5s is the duration of the transition */
+  transition: filter 0.5s
+  
+}
+
+nav a:hover {
+  color: #E0EBF5;
+  filter: grayscale(100%);
+  
+}
+
+
+
+.section {
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  width: 300px;
+ 
+}
+
+.dark-section {
+  background-color: #F5A9A9;
+  width: 1400px;
+}
+
+
+div{
+  color: #692ae8;
+}
+
+h3{
+  font-style: italic;
+  font-weight: 100;
+}
+
+#typing-text::after {
+  content: "|";
+  animation: blink 1s infinite;
+  font-size:  1.2em;
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+span{
+  font-size: 100px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-anim {
+  opacity: 0;
+  animation: fadeIn 3s;
+  opacity: 1;
+  padding-left: 30px;
+}
+
+/* Hides the scrollbar on webkit browsers */
+::-webkit-scrollbar {
+  width: 0px; /* removes the width */
+  background: transparent; /* sets the background to transparent */
+}
+
+img{
+  max-width: 35px;
+  max-height: 35px;
+}
+
+div a{
+  color: #692ae8;
+  text-decoration: none;
+  font-size: 18px;
+  width: 350px;
+  height: 350px;
+  font-style: italic;
+}
+
+div a:hover{
+  color: #E0EBF5;
+  text-decoration: none;
+  width: 350px;
+  height: 350px;
+}
+
+.right-div {
+  float: right;
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  
+}
