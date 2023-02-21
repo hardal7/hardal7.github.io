@@ -1,1 +1,1 @@
-# https:/hardal.me
+# hardal.me
