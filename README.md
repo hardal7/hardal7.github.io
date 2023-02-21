@@ -1,1 +1,1 @@
-# https://hardal7.github.io
+# https:/hardal.me
