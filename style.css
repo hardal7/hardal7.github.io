@@ -57,8 +57,8 @@ span{
 }
 
 img{
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 32px;
+  max-height: 32px;
 }
 
 div a{
@@ -100,6 +100,15 @@ div a:hover{
     padding-left: 50px;
 
   }
+  footer{
+    font-size: 25px;
+
+
+  }
+
+  footer img{
+    display: none;
+  }
 
 }
 
@@ -114,4 +123,22 @@ div a:hover{
 @keyframes writing {
   from { width: 0; }
   to { width: calc(100% + 1em); } /* Adjusted to include extra space for cursor effect */
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  color: #692ae8;
+  padding: 10px;
+  text-align: center;
+}
+
+footer img {
+  filter: grayscale(80%);
+  padding-top: 15px;
+  padding-right: 10px;
+  position: fixed;
+  right: 0;
 }
