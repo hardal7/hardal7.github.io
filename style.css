@@ -12,7 +12,7 @@ body {
 
 .center{
   padding-top: 50px;
-  font-size: 64px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .buttons{
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
 
 div{
@@ -118,10 +118,8 @@ div a:hover{
     padding-left: 50px;
 
   }
-  footer{
-    font-size: 25px;
-
-
+  footer p{
+    display: none;
   }
 
   footer img{
@@ -132,6 +130,16 @@ div a:hover{
     display: none;
   }
 
+  .aboutmetext{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+
+.aboutmetext a{
+  font-size: 24px;
+  text-decoration: underline;
 }
 
 #writing-text {
@@ -168,3 +176,4 @@ footer img {
   color: #692ae8;
 
 }
+
