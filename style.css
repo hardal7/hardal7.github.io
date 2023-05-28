@@ -10,6 +10,23 @@ body {
 
 }
 
+.center{
+  padding-top: 50px;
+  font-size: 64px;
+  text-align: center;
+}
+
+.aboutmetext{
+  font-size: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aboutme{
+  height: 700px;
+}
 
 .home{
   align-items: horizontal;
@@ -20,10 +37,6 @@ body {
 .hometext {
   width: 100%;
   padding-left: 150px;
-}
-
-.aboutme{
-  height: 700px;
 }
 
 .buttons{
@@ -76,7 +89,7 @@ div a{
 }
 
 div a:hover{
-  filter: brightness(70%);
+  filter: brightness(150%);
   text-decoration: none;
   width: 350px;
   height: 350px;
@@ -115,6 +128,10 @@ div a:hover{
     display: none;
   }
 
+  .buttons{
+    display: none;
+  }
+
 }
 
 #writing-text {
@@ -132,25 +149,18 @@ div a:hover{
 }
 
 footer {
-  position: fixed;
   display: flex;
+  justify-content: space-between;
   bottom: 0;
-  width: 100%;
   color: #692ae8;
   padding: 10px;
-  text-align: center;
 }
 
 footer img {
   filter: grayscale(80%);
   padding-top: 15px;
-  padding-right: 10px;
-  position: fixed;
-  right: 0;
 }
 
-
-/* CSS */
 .button-8 {
   background-color: #010202;
   border-radius: 4px;
@@ -158,4 +168,3 @@ footer img {
   color: #692ae8;
 
 }
-
